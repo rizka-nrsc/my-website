@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizka Nur Suciati | Portofolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Link ke Font Awesome -->
+    <style>
+      body {
+        background-color: #e9f5ff; /* Warna latar belakang yang lembut */
+        color: #343a40;
+        font-family: Arial, sans-serif;
+      }
+      .jumbotron {
+        background: linear-gradient(135deg, #007bff, #00c6ff); /* Gradasi biru */
+        color: white;
+        padding: 30px;
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      /* Tambahkan ini untuk mengubah warna link di dalam jumbotron menjadi putih */
+      .jumbotron a {
+        color: white;
+        text-decoration: none; /* Menghilangkan underline */
+      }
+
+      /* Menambahkan efek hover pada link */
+      .jumbotron a:hover {
+        color: #ddd; /* Warna putih yang sedikit lebih gelap saat di-hover */
+      }
+      .card {
+        margin-bottom: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+      }
+      .card:hover {
+        transform: scale(1.02); /* Efek hover untuk card */
+      }
+      h2 {
+        color: #007bff;
+        margin-top: 20px;
+        text-decoration: underline; /* Garis bawah judul */
+      }
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px; /* Melengkungkan sudut */
+        border: 4px solid #007bff;
+        margin-top: 20px;
+        object-fit: cover; /* Memastikan gambar ter-crop dengan baik */
+      }
+      .profile-section {
+        margin-top: 20px;
+        text-align: center;
+      }
+      .animated-text {
+        font-size: 1.5rem;
+        animation: fadeIn 2s;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      footer {
+        margin-top: 20px;
+        text-align: center;
+        background-color: #343a40;
+        color: white;
+        padding: 10px;
+      }
+      .list-group-item {
+        background-color: #ffffff;
+      }
+      .contact-title {
+        font-size: 1.2rem; /* Ukuran font yang lebih kecil */
+        margin-top: 20px;
+      }
+      .social-links {
+        margin-top: 10px;
+      }
+      .social-links a {
+        margin-right: 10px;
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Rizka Nur Suciati</h1>
+      <div class="profile-section">
+        <img src="WhatsApp Image 2024-11-03 at 09.09.59.jpeg" alt="Profil Rizka" class="profile-img" />
+        <p class="animated-text">Mahasiswa</p>
+        <!-- Ganti tulisan di sini -->
+      </div>
+      <div class="social-links">
+        <a href="https://wa.me/your_number" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="mailto:your_email@example.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://www.instagram.com/your_instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Menu</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <i class="fas fa-user-circle"></i> <a href="#profile" data-toggle="collapse">Profil Saya</a>
+          <div id="profile" class="collapse">
+            <p class="animated-text">Halo, saya mahasiswa teknik komputer</p>
+            <!-- Tambahkan halo, saya mahasiswa teknik komputer -->
+            <p>
+              Saya adalah seorang mahasiswa D3 Teknik Komputer yang aktif dan penuh semangat. Saat ini, saya fokus pada pengembangan keterampilan dalam bidang pemrograman dan elektronika, terutama dalam proyek-proyek berbasis Arduino. Saya
+              memiliki ketertarikan mendalam terhadap teknologi dan inovasi, serta suka bereksperimen dengan berbagai rangkaian elektronik. Selain itu, saya senang berkolaborasi dengan teman-teman di kelas, berbagi ide, dan mencari solusi
+              kreatif untuk tantangan yang dihadapi.
+            </p>
+            <!-- Deskripsi tambahan -->
+            <p>My Album:</p>
+            <div class="row">
+              <div class="col-md-3">
+                <img src="WhatsApp Image 2024-11-10 at 08.44.48.jpeg" alt="Foto 1" class="img-thumbnail" />
+              </div>
+              <div class="col-md-3">
+                <img src="WhatsApp Image 2024-11-09 at 21.10.08.jpeg" alt="Foto 2" class="img-thumbnail" />
+              </div>
+              <div class="col-md-3">
+                <img src="WhatsApp Image 2024-11-10 at 08.55.45.jpeg" alt="Foto 3" class="img-thumbnail" />
+              </div>
+              <div class="col-md-3">
+                <img src="WhatsApp Image 2024-11-10 at 08.48.15.jpeg" alt="Foto 4" class="img-thumbnail" />
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <i class="fas fa-info-circle"></i> <a href="#info" data-toggle="collapse">Informasi Dasar</a>
+          <div id="info" class="collapse">
+            <p>Nama : Rizka Nur Suciati</p>
+            <p>Usia: 21 tahun (Lahir 12 Juni 2003)</p>
+            <p>Asal: Tegal, Indonesia</p>
+            <p>Pendidikan: D3 Teknik Komputer</p>
+            <p>Minat: Teknologi, Arduino, Robotika</p>
+            <p>Hobi: Menulis cerita, berkreasi dengan teknologi, mengunjungi pantai</p>
+            <p>Kutipan Inspiratif: "Berani mencoba, berani gagal, dan berani tumbuh dalam setiap perjalanan."</p>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <i class="fas fa-cogs"></i> <a href="#skills" data-toggle="collapse">Keahlian</a>
+          <div id="skills" class="collapse">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Keahlian</th>
+                  <th>Tingkat Kemahiran</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Pemrograman</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Arduino Programming</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Rangkaian Elektronik</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Desain Grafis</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Database (MySQL)</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <i class="fas fa-project-diagram"></i> <a href="#projects" data-toggle="collapse">Pengalaman atau Proyek</a>
+          <div id="projects" class="collapse">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Proyek Arduino: Lampu LED Berurutan</h5>
+                    <p class="card-text">Membuat proyek dengan 10 lampu LED yang menyala secara berurutan dengan berbagai efek, seperti berkedip dan fade in/out.</p>
+                    <img src="WhatsApp Image 2024-11-08 at 17.29.58.jpeg" alt="Proyek Lampu LED" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Belajar Pemrograman Web</h5>
+                    <p class="card-text">Mengambil inisiatif untuk belajar pemrograman web secara mandiri, termasuk HTML, CSS, dan JavaScript.</p>
+                    <img src="WhatsApp Image 2024-11-09 at 20.43.25.jpeg" alt="Pemrograman Web" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Desain Grafis: Pembuatan Materi Promosi</h5>
+                    <p class="card-text">Mengembangkan keterampilan desain grafis dengan membuat materi promosi untuk acara kampus.</p>
+                    <img src="WhatsApp Image 2024-11-09 at 20.55.09.jpeg" alt="Materi Promosi" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <i class="fas fa-envelope"></i> <a href="#contact" data-toggle="collapse">Kontak</a>
+          <div id="contact" class="collapse">
+            <p class="contact-title">Jika kamu ingin menghubungi saya atau ingin mengikuti media sosial saya, bisa melalui kontak di bawah ini atau langsung isi form pesan:</p>
+            <ul class="list-group mb-4">
+              <li class="list-group-item">
+                <i class="fas fa-envelope"></i>
+                <strong>Email:</strong>
+                <a href="mailto:riss120633@gmail.com">riss120633@gmail.com</a>
+              </li>
+              <li class="list-group-item">
+                <i class="fab fa-instagram"></i>
+                <strong>Instagram:</strong>
+                <a href="https://www.instagram.com/rizkanrsc_/profilecard/?igsh=MXRkaXljcXY4aWNrdQ==" target="_blank">Instagram Profil</a>
+              </li>
+              <li class="list-group-item">
+                <i class="fab fa-whatsapp"></i>
+                <strong>WhatsApp:</strong>
+                <a href="https://wa.me/qr/MPDGAZM46DHJL1" target="_blank">Chat WhatsApp</a>
+              </li>
+            </ul>
+            <form>
+              <section id="contact">
+                <div class="container">
+                  <h2>Contact Me</h2>
+                  <form action="process_form.php" method="post">
+                    <div class="form-group">
+                      <label for="name">Name:</label>
+                      <input type="text" id="nama" name="nama" required placeholder="Tulis nama kamu di sini" />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required placeholder="Tulis Email kamu di sini" />
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Pesan:</label>
+                      <textarea id="message" name="message" rows="6" required placeholder="Tulis pesan kamu di sini"></textarea>
+                    </div>
+                    <button type="submit">Kirim Pesan</button>
+                  </form>
+                </div>
+              </section>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Rizka Nur Suciati. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
